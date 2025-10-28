@@ -17,43 +17,23 @@ export default function QuestionBankPage() {
   });
 
   return (
-    <main
-      className="container"
-      style={{ padding: "2rem", textAlign: "center" }}
-    >
-      <h1 style={{ fontSize: "var(--font-size-2xl)", marginBottom: "1rem" }}>
+    <main className="min-h-screen bg-gray-50 py-10 px-4">
+      <h1 className="text-3xl font-bold text-gray-800 text-center mb-8">
         Question Bank
       </h1>
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "1rem",
-          marginBottom: "1.5rem",
-          flexWrap: "wrap",
-        }}
-      >
+      <div className="sticky top-0 bg-gray-50 z-10 flex flex-wrap justify-center gap-4 mb-8 p-4 shadow-sm rounded-md">
         <input
           type="text"
           placeholder="Search questions..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          style={{
-            padding: "0.5rem 1rem",
-            borderRadius: "var(--radius-md)",
-            border: "1px solid var(--color-border)",
-            width: "250px",
-          }}
+          className="px-4 py-2 border border-gray-300 rounded-md w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          style={{
-            padding: "0.5rem 1rem",
-            borderRadius: "var(--radius-md)",
-            border: "1px solid var(--color-border)",
-          }}
+          className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           <option value="all">All Categories</option>
           <option value="verbal">Verbal</option>
@@ -62,27 +42,11 @@ export default function QuestionBankPage() {
         </select>
       </div>
 
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          gap: "1rem",
-        }}
-      >
+      <div className="max-w-4xl mx-auto grid gap-4">
         {filtered.map((q) => (
           <div
             key={q.id}
-            className="card"
-            style={{
-              width: "100%",
-              maxWidth: "700px",
-              textAlign: "left",
-              padding: "1rem",
-              border: "1px solid var(--color-border)",
-              borderRadius: "var(--radius-md)",
-              backgroundColor: "var(--color-surface)",
-            }}
+            className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
           >
             <button
               type="button"
@@ -92,38 +56,27 @@ export default function QuestionBankPage() {
                   setExpanded(expanded === q.id ? null : q.id);
                 }
               }}
-              style={{
-                margin: "0 0 0.5rem 0",
-                cursor: "pointer",
-                color: "var(--color-primary)",
-                background: "none",
-                border: "none",
-                textAlign: "left",
-                fontSize: "1rem",
-                fontWeight: 600,
-                width: "100%",
-              }}
+              className="w-full text-left px-6 py-4 text-lg font-semibold text-blue-700 hover:text-blue-800 focus:outline-none"
             >
               {q.id}: {q.question}
             </button>
             {expanded === q.id && (
-              <div style={{ marginTop: "0.5rem" }}>
-                <ul>
+              <div className="px-6 pb-4 animate-fadeIn">
+                <ul className="list-disc pl-6 space-y-1 text-gray-700">
                   {q.options.map((opt, i) => (
                     <li
                       key={`${q.id}-${opt}`}
-                      style={{
-                        color:
-                          i === q.answer
-                            ? "var(--color-accent)"
-                            : "var(--color-text)",
-                      }}
+                      className={
+                        i === q.answer
+                          ? "text-green-600 font-medium"
+                          : "text-gray-700"
+                      }
                     >
                       {opt}
                     </li>
                   ))}
                 </ul>
-                <p style={{ color: "var(--color-accent)", fontWeight: 500 }}>
+                <p className="mt-2 text-green-600 font-semibold">
                   Correct Answer: {q.options[q.answer]}
                 </p>
               </div>
@@ -131,9 +84,7 @@ export default function QuestionBankPage() {
           </div>
         ))}
         {filtered.length === 0 && (
-          <p style={{ color: "var(--color-text-secondary)" }}>
-            No questions found.
-          </p>
+          <p className="text-center text-gray-500">No questions found.</p>
         )}
       </div>
     </main>
