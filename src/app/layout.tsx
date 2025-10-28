@@ -1,8 +1,9 @@
 "use client";
 
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import Link from "next/link";
 import { useEffect, useState } from "react";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -64,7 +65,31 @@ export default function RootLayout({
             zIndex: 10,
           }}
         >
-          <h1 style={{ fontSize: "1.5rem", fontWeight: 600 }}>GRE Study</h1>
+          <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+            <h1 style={{ fontSize: "1.5rem", fontWeight: 600 }}>GRE Study</h1>
+            <nav style={{ display: "flex", gap: "1rem" }}>
+              <Link
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "var(--color-text)",
+                  fontWeight: 500,
+                }}
+              >
+                Home
+              </Link>
+              <Link
+                href="/question-bank"
+                style={{
+                  textDecoration: "none",
+                  color: "var(--color-text)",
+                  fontWeight: 500,
+                }}
+              >
+                Question Bank
+              </Link>
+            </nav>
+          </div>
           <button type="button" onClick={toggleTheme} aria-label="Toggle theme">
             {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
           </button>

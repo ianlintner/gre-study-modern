@@ -1,0 +1,2475 @@
+{
+  "metadata": {
+    "created": "2025-10-26T01:53:48.630632Z",
+    "file_index": 1,
+    "count": 200
+  },
+  "items": [
+    {
+      "id": "QC-000124",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -4. Compare the two quantities.\n\nQuantity A: 12(x + 2)\nQuantity B: 8(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "TC1-000039",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the engineer was praised for a writing style that was effervescent; thus, early drafts were anything but _____.",
+      "choices": ["rarefied", "flat", "lethargic", "jejune", "effervescent"],
+      "correct_answer": ["effervescent"],
+      "explanation": "Because the style is described as effervescent, the blank should match that description despite the pivot; effervescent completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QC-000094",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 4(x + 2)\nQuantity B: 14(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "TC1-000046",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the novelist was praised for a writing style that was obstinate; therefore, early drafts were anything but _____.",
+      "choices": ["rarefied", "jejune", "pliable", "yielding", "obstinate"],
+      "correct_answer": ["obstinate"],
+      "explanation": "Because the style is described as obstinate, the blank should match that description despite the pivot; obstinate completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCM-000175",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 54.",
+      "choices": [11, 10, 6, 9, 12, 8],
+      "correct_answer": [6, 9],
+      "explanation": "A factor of 54 divides it with no remainder. Check each choice by division.",
+      "difficulty": "medium",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "AWA-000199",
+      "section": "Analytical Writing",
+      "type": "Issue Task",
+      "question": "To improve cities, planners should focus more on public transit than on building additional roads.",
+      "choices": [],
+      "correct_answer": [],
+      "explanation": "Prompt for practice. For flash use, have students outline: (1) position, (2) two reasons, (3) counterargument, (4) example, (5) conclusion.",
+      "difficulty": "open",
+      "tags": ["writing", "issue"]
+    },
+    {
+      "id": "SE-000016",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe journalist was prolix in meetings; although in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": ["terse", "laconic", "pithy", "verbose", "prolix", "brief"],
+      "correct_answer": ["prolix", "verbose"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['prolix', 'verbose'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "hard",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QNE-000187",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "50% of 62 is ___.",
+      "choices": [],
+      "correct_answer": [31.0],
+      "explanation": "50% of 62 = (50/100)×62 = 31.0.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "QMCS-000137",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 29 miles per hour for 5 hours. How many miles does it travel?",
+      "choices": [87, 203, 174, 116, 145],
+      "correct_answer": [145],
+      "explanation": "Distance = rate × time = 29 × 5 = 145.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "SE-000001",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that both complete the meaning.\n\nthe biologist was diffident in meetings; although in print the tone became unexpectedly sharp.\n\nHer remarks were strikingly ____.",
+      "choices": [
+        "laconic",
+        "prolix",
+        "terse",
+        "verbose",
+        "diffuse",
+        "expansive"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QMCS-000160",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 59 miles per hour for 3 hours. How many miles does it travel?",
+      "choices": [59, 118, 236, 295, 177],
+      "correct_answer": [177],
+      "explanation": "Distance = rate × time = 59 × 3 = 177.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "SE-000009",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe manager was prolix in meetings; however in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": ["verbose", "terse", "prolix", "laconic", "pithy", "brief"],
+      "correct_answer": ["prolix", "verbose"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['prolix', 'verbose'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QNE-000188",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "12% of 63 is ___.",
+      "choices": [],
+      "correct_answer": [7.56],
+      "explanation": "12% of 63 = (12/100)×63 = 7.56.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "QMCS-000131",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 46 miles per hour for 5 hours. How many miles does it travel?",
+      "choices": [276, 230, 138, 184, 322],
+      "correct_answer": [230],
+      "explanation": "Distance = rate × time = 46 × 5 = 230.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QC-000123",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 10. Compare the two quantities.\n\nQuantity A: 8(x + 2)\nQuantity B: 13(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "SE-000007",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that both complete the meaning.\n\nthe biologist was arduous in meetings; however in print the tone became unexpectedly sharp.\n\nHer remarks were strikingly ____.",
+      "choices": [
+        "verbose",
+        "laconic",
+        "expansive",
+        "terse",
+        "diffuse",
+        "prolix"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "TC1-000035",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the novelist was praised for a writing style that was whimsical; however, early drafts were anything but _____.",
+      "choices": ["rarefied", "salient", "sober", "staid", "predictable"],
+      "correct_answer": ["whimsical"],
+      "explanation": "Because the style is described as whimsical, the blank should match that description despite the pivot; whimsical completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCS-000150",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 44 miles per hour for 6 hours. How many miles does it travel?",
+      "choices": [264, 220, 352, 176, 308],
+      "correct_answer": [264],
+      "explanation": "Distance = rate × time = 44 × 6 = 264.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCM-000162",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 64.",
+      "choices": [4, 8, 9, 7, 10, 11],
+      "correct_answer": [4, 8],
+      "explanation": "A factor of 64 divides it with no remainder. Check each choice by division.",
+      "difficulty": "medium",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "RC-000072",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"While solar and wind technologies have fallen in cost, grid operators still face challenges balancing supply and demand. Short-term storage helps, but market rules lag technology.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "hard",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QC-000081",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 0. Compare the two quantities.\n\nQuantity A: 3(x + 2)\nQuantity B: 13(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QNE-000194",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "50% of 79 is ___.",
+      "choices": [],
+      "correct_answer": [39.5],
+      "explanation": "50% of 79 = (50/100)×79 = 39.5.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "SE-000017",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe biologist was banal in meetings; despite in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": ["fresh", "banal", "original", "novel", "trite", "innovative"],
+      "correct_answer": ["banal", "trite"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['banal', 'trite'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QMCS-000142",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 26 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [52, 0, 78, 26, 104],
+      "correct_answer": [52],
+      "explanation": "Distance = rate × time = 26 × 2 = 52.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCS-000140",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 41 miles per hour for 6 hours. How many miles does it travel?",
+      "choices": [246, 205, 164, 287, 328],
+      "correct_answer": [246],
+      "explanation": "Distance = rate × time = 41 × 6 = 246.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "TC1-000028",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the juror was praised for a writing style that was effervescent; yet, early drafts were anything but _____.",
+      "choices": ["salient", "jejune", "lethargic", "flat", "effervescent"],
+      "correct_answer": ["effervescent"],
+      "explanation": "Because the style is described as effervescent, the blank should match that description despite the pivot; effervescent completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "TC1-000050",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the analyst was praised for a writing style that was verbose; thus, early drafts were anything but _____.",
+      "choices": ["succinct", "rarefied", "jejune", "obtuse", "terse"],
+      "correct_answer": ["verbose"],
+      "explanation": "Because the style is described as verbose, the blank should match that description despite the pivot; verbose completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "TC1-000058",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the analyst was praised for a writing style that was meticulous; even though, early drafts were anything but _____.",
+      "choices": ["obtuse", "sloppy", "jejune", "haphazard", "careless"],
+      "correct_answer": ["meticulous"],
+      "explanation": "Because the style is described as meticulous, the blank should match that description despite the pivot; meticulous completes the contrast properly.",
+      "difficulty": "hard",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "RC-000061",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"While solar and wind technologies have fallen in cost, grid operators still face challenges balancing supply and demand. Short-term storage helps, but market rules lag technology.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "medium",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "TC1-000027",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the juror was praised for a writing style that was verbose; however, early drafts were anything but _____.",
+      "choices": ["jejune", "obtuse", "terse", "succinct", "rarefied"],
+      "correct_answer": ["verbose"],
+      "explanation": "Because the style is described as verbose, the blank should match that description despite the pivot; verbose completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCS-000130",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 49 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [98, 0, 147, 196, 49],
+      "correct_answer": [98],
+      "explanation": "Distance = rate × time = 49 × 2 = 98.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCS-000143",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 22 miles per hour for 4 hours. How many miles does it travel?",
+      "choices": [44, 132, 66, 110, 88],
+      "correct_answer": [88],
+      "explanation": "Distance = rate × time = 22 × 4 = 88.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QC-000105",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 5(x + 2)\nQuantity B: 6(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000093",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -4. Compare the two quantities.\n\nQuantity A: 3(x + 2)\nQuantity B: 11(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QMCS-000157",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 29 miles per hour for 3 hours. How many miles does it travel?",
+      "choices": [29, 58, 87, 116, 145],
+      "correct_answer": [87],
+      "explanation": "Distance = rate × time = 29 × 3 = 87.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QC-000085",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 7(x + 2)\nQuantity B: 4(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000099",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -4. Compare the two quantities.\n\nQuantity A: 11(x + 2)\nQuantity B: 11(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["C"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "RC-000071",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"While solar and wind technologies have fallen in cost, grid operators still face challenges balancing supply and demand. Short-term storage helps, but market rules lag technology.\"\n\nWhich inference is best supported by the passage?",
+      "choices": [
+        "People care only about monetary payoffs.",
+        "Social context can influence economic decisions.",
+        "Unfair offers are always rejected.",
+        "Spite is the dominant motive in all choices.",
+        "Experiments cannot reveal real behavior."
+      ],
+      "correct_answer": ["Social context can influence economic decisions."],
+      "explanation": "Accepting an unfair offer to avoid appearing spiteful shows social signaling influences choices.",
+      "difficulty": "medium",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QMCS-000149",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 49 miles per hour for 4 hours. How many miles does it travel?",
+      "choices": [245, 196, 98, 294, 147],
+      "correct_answer": [196],
+      "explanation": "Distance = rate × time = 49 × 4 = 196.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "SE-000004",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe journalist was fastidious in meetings; despite in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "fastidious",
+        "slapdash",
+        "meticulous",
+        "cavalier",
+        "haphazard",
+        "careless"
+      ],
+      "correct_answer": ["fastidious", "meticulous"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['fastidious', 'meticulous'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "hard",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "RC-000065",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"Recent excavations suggest that coastal communities exchanged not only goods but also navigational knowledge, enabling longer voyages than previously assumed.\"\n\nAccording to the passage, which of the following is cited as a challenge?",
+      "choices": [
+        "Abundance of storage",
+        "Lack of market rules keeping pace",
+        "Falling technology costs",
+        "Public opposition",
+        "Overregulated grids"
+      ],
+      "correct_answer": ["Lack of market rules keeping pace"],
+      "explanation": "The passage explicitly mentions that market rules lag technology.",
+      "difficulty": "easy",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QNE-000192",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "50% of 94 is ___.",
+      "choices": [],
+      "correct_answer": [47.0],
+      "explanation": "50% of 94 = (50/100)×94 = 47.0.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "QMCM-000176",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 36.",
+      "choices": [3, 10, 5, 8, 11, 12],
+      "correct_answer": [3, 12],
+      "explanation": "A factor of 36 divides it with no remainder. Check each choice by division.",
+      "difficulty": "medium",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QC-000100",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 1. Compare the two quantities.\n\nQuantity A: 13(x + 2)\nQuantity B: 3(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "TC1-000048",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the historian was praised for a writing style that was loquacious; yet, early drafts were anything but _____.",
+      "choices": ["ornate", "rarefied", "jejune", "loquacious", "banal"],
+      "correct_answer": ["loquacious"],
+      "explanation": "Because the style is described as loquacious, the blank should match that description despite the pivot; loquacious completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QC-000113",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 10. Compare the two quantities.\n\nQuantity A: 8(x + 2)\nQuantity B: 6(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "SE-000005",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe professor was truculent in meetings; however in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "pacific",
+        "truculent",
+        "belligerent",
+        "conciliatory",
+        "amiable",
+        "genial"
+      ],
+      "correct_answer": ["truculent", "belligerent"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['truculent', 'belligerent'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "medium",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QC-000101",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -3. Compare the two quantities.\n\nQuantity A: 5(x + 2)\nQuantity B: 6(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "RC-000067",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"While solar and wind technologies have fallen in cost, grid operators still face challenges balancing supply and demand. Short-term storage helps, but market rules lag technology.\"\n\nAccording to the passage, which of the following is cited as a challenge?",
+      "choices": [
+        "Abundance of storage",
+        "Lack of market rules keeping pace",
+        "Falling technology costs",
+        "Public opposition",
+        "Overregulated grids"
+      ],
+      "correct_answer": ["Lack of market rules keeping pace"],
+      "explanation": "The passage explicitly mentions that market rules lag technology.",
+      "difficulty": "medium",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QC-000092",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 7. Compare the two quantities.\n\nQuantity A: 15(x + 2)\nQuantity B: 3(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QMCM-000165",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 64.",
+      "choices": [12, 7, 2, 8, 4, 3],
+      "correct_answer": [2, 8, 4],
+      "explanation": "A factor of 64 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QMCM-000168",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 51.",
+      "choices": [4, 11, 2, 6, 8, 3],
+      "correct_answer": [3],
+      "explanation": "A factor of 51 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QNE-000181",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "60% of 58 is ___.",
+      "choices": [],
+      "correct_answer": [34.8],
+      "explanation": "60% of 58 = (60/100)×58 = 34.8.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "QC-000116",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -5. Compare the two quantities.\n\nQuantity A: 3(x + 2)\nQuantity B: 5(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000104",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 11(x + 2)\nQuantity B: 9(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "RC-000062",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"While solar and wind technologies have fallen in cost, grid operators still face challenges balancing supply and demand. Short-term storage helps, but market rules lag technology.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "easy",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QMCS-000147",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 36 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [36, 72, 0, 108, 144],
+      "correct_answer": [72],
+      "explanation": "Distance = rate × time = 36 × 2 = 72.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "AWA-000200",
+      "section": "Analytical Writing",
+      "type": "Issue Task",
+      "question": "To improve cities, planners should focus more on public transit than on building additional roads.",
+      "choices": [],
+      "correct_answer": [],
+      "explanation": "Prompt for practice. For flash use, have students outline: (1) position, (2) two reasons, (3) counterargument, (4) example, (5) conclusion.",
+      "difficulty": "open",
+      "tags": ["writing", "issue"]
+    },
+    {
+      "id": "QC-000086",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -1. Compare the two quantities.\n\nQuantity A: 13(x + 2)\nQuantity B: 10(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QNE-000183",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "60% of 46 is ___.",
+      "choices": [],
+      "correct_answer": [27.6],
+      "explanation": "60% of 46 = (60/100)×46 = 27.6.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "RC-000063",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"Recent excavations suggest that coastal communities exchanged not only goods but also navigational knowledge, enabling longer voyages than previously assumed.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "medium",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QNE-000191",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "35% of 91 is ___.",
+      "choices": [],
+      "correct_answer": [31.85],
+      "explanation": "35% of 91 = (35/100)×91 = 31.85.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "TC1-000049",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the analyst was praised for a writing style that was chastise; since, early drafts were anything but _____.",
+      "choices": ["praise", "laud", "jejune", "obtuse", "rarefied"],
+      "correct_answer": ["chastise"],
+      "explanation": "Because the style is described as chastise, the blank should match that description despite the pivot; chastise completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "TC1-000060",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the novelist was praised for a writing style that was duplicitous; however, early drafts were anything but _____.",
+      "choices": ["jejune", "honest", "obtuse", "duplicitous", "candid"],
+      "correct_answer": ["duplicitous"],
+      "explanation": "Because the style is described as duplicitous, the blank should match that description despite the pivot; duplicitous completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "RC-000064",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"Recent excavations suggest that coastal communities exchanged not only goods but also navigational knowledge, enabling longer voyages than previously assumed.\"\n\nAccording to the passage, which of the following is cited as a challenge?",
+      "choices": [
+        "Abundance of storage",
+        "Lack of market rules keeping pace",
+        "Falling technology costs",
+        "Public opposition",
+        "Overregulated grids"
+      ],
+      "correct_answer": ["Lack of market rules keeping pace"],
+      "explanation": "The passage explicitly mentions that market rules lag technology.",
+      "difficulty": "hard",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "RC-000069",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"In experiments, participants often accept unfair offers if rejecting them would be seen as spiteful. This indicates that social signaling shapes choices, not just payoffs.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "hard",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QC-000083",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 13(x + 2)\nQuantity B: 11(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "SE-000020",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe professor was prolix in meetings; although in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": ["verbose", "terse", "prolix", "pithy", "brief", "laconic"],
+      "correct_answer": ["prolix", "verbose"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['prolix', 'verbose'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "medium",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "SE-000023",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that both complete the meaning.\n\nthe professor was capricious in meetings; however in print the tone became unexpectedly sharp.\n\nHer remarks were strikingly ____.",
+      "choices": [
+        "diffuse",
+        "laconic",
+        "terse",
+        "prolix",
+        "expansive",
+        "verbose"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "medium",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "TC1-000026",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the engineer was praised for a writing style that was meticulous; even though, early drafts were anything but _____.",
+      "choices": ["sloppy", "haphazard", "meticulous", "careless", "obtuse"],
+      "correct_answer": ["meticulous"],
+      "explanation": "Because the style is described as meticulous, the blank should match that description despite the pivot; meticulous completes the contrast properly.",
+      "difficulty": "hard",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "TC1-000033",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the juror was praised for a writing style that was austere; since, early drafts were anything but _____.",
+      "choices": ["obtuse", "ornate", "austere", "opulent", "jejune"],
+      "correct_answer": ["austere"],
+      "explanation": "Because the style is described as austere, the blank should match that description despite the pivot; austere completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCS-000138",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 48 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [48, 144, 96, 192, 0],
+      "correct_answer": [96],
+      "explanation": "Distance = rate × time = 48 × 2 = 96.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QC-000096",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 2. Compare the two quantities.\n\nQuantity A: 11(x + 2)\nQuantity B: 14(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QNE-000186",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "12% of 54 is ___.",
+      "choices": [],
+      "correct_answer": [6.48],
+      "explanation": "12% of 54 = (12/100)×54 = 6.48.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "SE-000019",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe committee was truculent in meetings; however in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "truculent",
+        "conciliatory",
+        "belligerent",
+        "genial",
+        "amiable",
+        "pacific"
+      ],
+      "correct_answer": ["truculent", "belligerent"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['truculent', 'belligerent'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "RC-000077",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"Recent excavations suggest that coastal communities exchanged not only goods but also navigational knowledge, enabling longer voyages than previously assumed.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "hard",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QMCS-000158",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 36 miles per hour for 6 hours. How many miles does it travel?",
+      "choices": [144, 252, 180, 288, 216],
+      "correct_answer": [216],
+      "explanation": "Distance = rate × time = 36 × 6 = 216.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "TC1-000025",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the historian was praised for a writing style that was austere; even though, early drafts were anything but _____.",
+      "choices": ["rarefied", "opulent", "obtuse", "ornate", "salient"],
+      "correct_answer": ["austere"],
+      "explanation": "Because the style is described as austere, the blank should match that description despite the pivot; austere completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QC-000110",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 2(x + 2)\nQuantity B: 4(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QNE-000182",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "30% of 59 is ___.",
+      "choices": [],
+      "correct_answer": [17.7],
+      "explanation": "30% of 59 = (30/100)×59 = 17.7.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "QMCM-000161",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 37.",
+      "choices": [1, 2, 11, 6, 5, 10],
+      "correct_answer": [1],
+      "explanation": "A factor of 37 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QMCS-000139",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 29 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [58, 0, 29, 87, 116],
+      "correct_answer": [58],
+      "explanation": "Distance = rate × time = 29 × 2 = 58.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QC-000119",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 8. Compare the two quantities.\n\nQuantity A: 4(x + 2)\nQuantity B: 11(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QNE-000193",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "60% of 89 is ___.",
+      "choices": [],
+      "correct_answer": [53.4],
+      "explanation": "60% of 89 = (60/100)×89 = 53.4.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "TC1-000043",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the juror was praised for a writing style that was chastise; yet, early drafts were anything but _____.",
+      "choices": ["laud", "rarefied", "salient", "praise", "jejune"],
+      "correct_answer": ["chastise"],
+      "explanation": "Because the style is described as chastise, the blank should match that description despite the pivot; chastise completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCS-000154",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 28 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [56, 28, 112, 0, 84],
+      "correct_answer": [56],
+      "explanation": "Distance = rate × time = 28 × 2 = 56.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "TC1-000044",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the engineer was praised for a writing style that was chastise; yet, early drafts were anything but _____.",
+      "choices": ["salient", "laud", "rarefied", "obtuse", "praise"],
+      "correct_answer": ["chastise"],
+      "explanation": "Because the style is described as chastise, the blank should match that description despite the pivot; chastise completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCM-000172",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 58.",
+      "choices": [10, 5, 2, 6, 11, 7],
+      "correct_answer": [2],
+      "explanation": "A factor of 58 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QMCS-000126",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 54 miles per hour for 5 hours. How many miles does it travel?",
+      "choices": [324, 216, 162, 270, 378],
+      "correct_answer": [270],
+      "explanation": "Distance = rate × time = 54 × 5 = 270.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "SE-000011",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe biologist was laconic in meetings; however in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "verbose",
+        "diffuse",
+        "expansive",
+        "laconic",
+        "terse",
+        "prolix"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "RC-000068",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"Recent excavations suggest that coastal communities exchanged not only goods but also navigational knowledge, enabling longer voyages than previously assumed.\"\n\nAccording to the passage, which of the following is cited as a challenge?",
+      "choices": [
+        "Abundance of storage",
+        "Lack of market rules keeping pace",
+        "Falling technology costs",
+        "Public opposition",
+        "Overregulated grids"
+      ],
+      "correct_answer": ["Lack of market rules keeping pace"],
+      "explanation": "The passage explicitly mentions that market rules lag technology.",
+      "difficulty": "easy",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QC-000106",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -3. Compare the two quantities.\n\nQuantity A: 15(x + 2)\nQuantity B: 9(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "RC-000076",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"Recent excavations suggest that coastal communities exchanged not only goods but also navigational knowledge, enabling longer voyages than previously assumed.\"\n\nAccording to the passage, which of the following is cited as a challenge?",
+      "choices": [
+        "Abundance of storage",
+        "Lack of market rules keeping pace",
+        "Falling technology costs",
+        "Public opposition",
+        "Overregulated grids"
+      ],
+      "correct_answer": ["Lack of market rules keeping pace"],
+      "explanation": "The passage explicitly mentions that market rules lag technology.",
+      "difficulty": "hard",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QNE-000184",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "20% of 72 is ___.",
+      "choices": [],
+      "correct_answer": [14.4],
+      "explanation": "20% of 72 = (20/100)×72 = 14.4.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "TC1-000032",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the analyst was praised for a writing style that was verbose; since, early drafts were anything but _____.",
+      "choices": ["salient", "obtuse", "jejune", "succinct", "terse"],
+      "correct_answer": ["verbose"],
+      "explanation": "Because the style is described as verbose, the blank should match that description despite the pivot; verbose completes the contrast properly.",
+      "difficulty": "hard",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCM-000173",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 33.",
+      "choices": [9, 8, 11, 3, 5, 7],
+      "correct_answer": [11, 3],
+      "explanation": "A factor of 33 divides it with no remainder. Check each choice by division.",
+      "difficulty": "medium",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QC-000122",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 0. Compare the two quantities.\n\nQuantity A: 12(x + 2)\nQuantity B: 3(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QMCS-000148",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 48 miles per hour for 4 hours. How many miles does it travel?",
+      "choices": [192, 144, 288, 240, 96],
+      "correct_answer": [192],
+      "explanation": "Distance = rate × time = 48 × 4 = 192.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "AWA-000197",
+      "section": "Analytical Writing",
+      "type": "Issue Task",
+      "question": "Governments should prioritize funding for basic scientific research over immediate commercial applications.",
+      "choices": [],
+      "correct_answer": [],
+      "explanation": "Prompt for practice. For flash use, have students outline: (1) position, (2) two reasons, (3) counterargument, (4) example, (5) conclusion.",
+      "difficulty": "open",
+      "tags": ["writing", "issue"]
+    },
+    {
+      "id": "QNE-000189",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "25% of 88 is ___.",
+      "choices": [],
+      "correct_answer": [22.0],
+      "explanation": "25% of 88 = (25/100)×88 = 22.0.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "QC-000120",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -3. Compare the two quantities.\n\nQuantity A: 15(x + 2)\nQuantity B: 9(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QMCM-000178",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 72.",
+      "choices": [6, 7, 4, 9, 2, 8],
+      "correct_answer": [6, 4, 9, 2, 8],
+      "explanation": "A factor of 72 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QMCM-000174",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 34.",
+      "choices": [1, 7, 4, 12, 9, 10],
+      "correct_answer": [1],
+      "explanation": "A factor of 34 divides it with no remainder. Check each choice by division.",
+      "difficulty": "medium",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "TC1-000042",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the engineer was praised for a writing style that was effervescent; yet, early drafts were anything but _____.",
+      "choices": ["effervescent", "rarefied", "obtuse", "lethargic", "jejune"],
+      "correct_answer": ["effervescent"],
+      "explanation": "Because the style is described as effervescent, the blank should match that description despite the pivot; effervescent completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QC-000121",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 5. Compare the two quantities.\n\nQuantity A: 7(x + 2)\nQuantity B: 8(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000112",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 3(x + 2)\nQuantity B: 9(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QNE-000195",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "60% of 41 is ___.",
+      "choices": [],
+      "correct_answer": [24.6],
+      "explanation": "60% of 41 = (60/100)×41 = 24.6.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "TC1-000038",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the juror was praised for a writing style that was austere; because, early drafts were anything but _____.",
+      "choices": ["rarefied", "austere", "ornate", "opulent", "obtuse"],
+      "correct_answer": ["austere"],
+      "explanation": "Because the style is described as austere, the blank should match that description despite the pivot; austere completes the contrast properly.",
+      "difficulty": "hard",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "TC1-000054",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the juror was praised for a writing style that was trite; even though, early drafts were anything but _____.",
+      "choices": ["obtuse", "novel", "trite", "original", "rarefied"],
+      "correct_answer": ["trite"],
+      "explanation": "Because the style is described as trite, the blank should match that description despite the pivot; trite completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QC-000082",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 10. Compare the two quantities.\n\nQuantity A: 5(x + 2)\nQuantity B: 13(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QMCS-000134",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 29 miles per hour for 5 hours. How many miles does it travel?",
+      "choices": [145, 174, 116, 203, 87],
+      "correct_answer": [145],
+      "explanation": "Distance = rate × time = 29 × 5 = 145.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "TC1-000052",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the curator was praised for a writing style that was chastise; despite, early drafts were anything but _____.",
+      "choices": ["praise", "obtuse", "jejune", "salient", "laud"],
+      "correct_answer": ["chastise"],
+      "explanation": "Because the style is described as chastise, the blank should match that description despite the pivot; chastise completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QC-000115",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 3. Compare the two quantities.\n\nQuantity A: 13(x + 2)\nQuantity B: 7(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QMCS-000141",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 59 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [0, 236, 118, 177, 59],
+      "correct_answer": [118],
+      "explanation": "Distance = rate × time = 59 × 2 = 118.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "RC-000074",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"In experiments, participants often accept unfair offers if rejecting them would be seen as spiteful. This indicates that social signaling shapes choices, not just payoffs.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "medium",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QMCM-000171",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 38.",
+      "choices": [1, 10, 3, 11, 5, 12],
+      "correct_answer": [1],
+      "explanation": "A factor of 38 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QMCS-000151",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 45 miles per hour for 4 hours. How many miles does it travel?",
+      "choices": [270, 135, 225, 90, 180],
+      "correct_answer": [180],
+      "explanation": "Distance = rate × time = 45 × 4 = 180.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCS-000127",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 60 miles per hour for 5 hours. How many miles does it travel?",
+      "choices": [360, 180, 420, 240, 300],
+      "correct_answer": [300],
+      "explanation": "Distance = rate × time = 60 × 5 = 300.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QC-000118",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 9. Compare the two quantities.\n\nQuantity A: 9(x + 2)\nQuantity B: 10(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QMCS-000129",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 39 miles per hour for 6 hours. How many miles does it travel?",
+      "choices": [195, 273, 156, 312, 234],
+      "correct_answer": [234],
+      "explanation": "Distance = rate × time = 39 × 6 = 234.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "SE-000003",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that both complete the meaning.\n\nthe critic was arduous in meetings; although in print the tone became unexpectedly sharp.\n\nHer remarks were strikingly ____.",
+      "choices": [
+        "verbose",
+        "expansive",
+        "laconic",
+        "diffuse",
+        "terse",
+        "prolix"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QMCM-000170",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 80.",
+      "choices": [5, 11, 7, 2, 3, 4],
+      "correct_answer": [5, 2, 4],
+      "explanation": "A factor of 80 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "SE-000006",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe manager was fastidious in meetings; although in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "cavalier",
+        "careless",
+        "haphazard",
+        "meticulous",
+        "slapdash",
+        "fastidious"
+      ],
+      "correct_answer": ["fastidious", "meticulous"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['fastidious', 'meticulous'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "medium",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QMCM-000179",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 35.",
+      "choices": [8, 3, 7, 4, 6, 2],
+      "correct_answer": [7],
+      "explanation": "A factor of 35 divides it with no remainder. Check each choice by division.",
+      "difficulty": "medium",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QMCS-000133",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 41 miles per hour for 6 hours. How many miles does it travel?",
+      "choices": [328, 164, 205, 246, 287],
+      "correct_answer": [246],
+      "explanation": "Distance = rate × time = 41 × 6 = 246.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "TC1-000051",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the juror was praised for a writing style that was austere; since, early drafts were anything but _____.",
+      "choices": ["ornate", "obtuse", "jejune", "rarefied", "opulent"],
+      "correct_answer": ["austere"],
+      "explanation": "Because the style is described as austere, the blank should match that description despite the pivot; austere completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "SE-000010",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that both complete the meaning.\n\nthe critic was garrulous in meetings; however in print the tone became unexpectedly sharp.\n\nHer remarks were strikingly ____.",
+      "choices": [
+        "diffuse",
+        "prolix",
+        "terse",
+        "expansive",
+        "verbose",
+        "laconic"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "hard",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QC-000091",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 10. Compare the two quantities.\n\nQuantity A: 2(x + 2)\nQuantity B: 6(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "TC1-000059",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the curator was praised for a writing style that was aversion; despite, early drafts were anything but _____.",
+      "choices": ["rarefied", "aversion", "jejune", "fondness", "liking"],
+      "correct_answer": ["aversion"],
+      "explanation": "Because the style is described as aversion, the blank should match that description despite the pivot; aversion completes the contrast properly.",
+      "difficulty": "hard",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QC-000098",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 8. Compare the two quantities.\n\nQuantity A: 15(x + 2)\nQuantity B: 11(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "TC1-000034",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the novelist was praised for a writing style that was belligerent; therefore, early drafts were anything but _____.",
+      "choices": ["affable", "peaceful", "belligerent", "obtuse", "jejune"],
+      "correct_answer": ["belligerent"],
+      "explanation": "Because the style is described as belligerent, the blank should match that description despite the pivot; belligerent completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "TC1-000045",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the analyst was praised for a writing style that was aversion; thus, early drafts were anything but _____.",
+      "choices": ["jejune", "aversion", "fondness", "salient", "liking"],
+      "correct_answer": ["aversion"],
+      "explanation": "Because the style is described as aversion, the blank should match that description despite the pivot; aversion completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCS-000155",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 32 miles per hour for 3 hours. How many miles does it travel?",
+      "choices": [96, 64, 160, 128, 32],
+      "correct_answer": [96],
+      "explanation": "Distance = rate × time = 32 × 3 = 96.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCS-000128",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 48 miles per hour for 5 hours. How many miles does it travel?",
+      "choices": [192, 336, 288, 144, 240],
+      "correct_answer": [240],
+      "explanation": "Distance = rate × time = 48 × 5 = 240.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCS-000144",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 29 miles per hour for 3 hours. How many miles does it travel?",
+      "choices": [58, 87, 116, 145, 29],
+      "correct_answer": [87],
+      "explanation": "Distance = rate × time = 29 × 3 = 87.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "TC1-000031",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the novelist was praised for a writing style that was loquacious; although, early drafts were anything but _____.",
+      "choices": ["banal", "jejune", "loquacious", "careless", "ornate"],
+      "correct_answer": ["loquacious"],
+      "explanation": "Because the style is described as loquacious, the blank should match that description despite the pivot; loquacious completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCM-000177",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 51.",
+      "choices": [9, 8, 11, 3, 4, 5],
+      "correct_answer": [3],
+      "explanation": "A factor of 51 divides it with no remainder. Check each choice by division.",
+      "difficulty": "medium",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "RC-000075",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"In experiments, participants often accept unfair offers if rejecting them would be seen as spiteful. This indicates that social signaling shapes choices, not just payoffs.\"\n\nAccording to the passage, which of the following is cited as a challenge?",
+      "choices": [
+        "Abundance of storage",
+        "Lack of market rules keeping pace",
+        "Falling technology costs",
+        "Public opposition",
+        "Overregulated grids"
+      ],
+      "correct_answer": ["Lack of market rules keeping pace"],
+      "explanation": "The passage explicitly mentions that market rules lag technology.",
+      "difficulty": "medium",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "RC-000066",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"In experiments, participants often accept unfair offers if rejecting them would be seen as spiteful. This indicates that social signaling shapes choices, not just payoffs.\"\n\nWhich inference is best supported by the passage?",
+      "choices": [
+        "People care only about monetary payoffs.",
+        "Social context can influence economic decisions.",
+        "Unfair offers are always rejected.",
+        "Spite is the dominant motive in all choices.",
+        "Experiments cannot reveal real behavior."
+      ],
+      "correct_answer": ["Social context can influence economic decisions."],
+      "explanation": "Accepting an unfair offer to avoid appearing spiteful shows social signaling influences choices.",
+      "difficulty": "easy",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "TC1-000036",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the historian was praised for a writing style that was transparent; however, early drafts were anything but _____.",
+      "choices": ["rarefied", "transparent", "opaque", "murky", "jejune"],
+      "correct_answer": ["transparent"],
+      "explanation": "Because the style is described as transparent, the blank should match that description despite the pivot; transparent completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "TC1-000055",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the juror was praised for a writing style that was loquacious; therefore, early drafts were anything but _____.",
+      "choices": ["jejune", "loquacious", "rarefied", "banal", "ornate"],
+      "correct_answer": ["loquacious"],
+      "explanation": "Because the style is described as loquacious, the blank should match that description despite the pivot; loquacious completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "RC-000078",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"Recent excavations suggest that coastal communities exchanged not only goods but also navigational knowledge, enabling longer voyages than previously assumed.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "medium",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "TC1-000053",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the novelist was praised for a writing style that was austere; since, early drafts were anything but _____.",
+      "choices": ["ornate", "austere", "obtuse", "rarefied", "opulent"],
+      "correct_answer": ["austere"],
+      "explanation": "Because the style is described as austere, the blank should match that description despite the pivot; austere completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "AWA-000198",
+      "section": "Analytical Writing",
+      "type": "Issue Task",
+      "question": "Universities ought to require all students to take a course in data literacy.",
+      "choices": [],
+      "correct_answer": [],
+      "explanation": "Prompt for practice. For flash use, have students outline: (1) position, (2) two reasons, (3) counterargument, (4) example, (5) conclusion.",
+      "difficulty": "open",
+      "tags": ["writing", "issue"]
+    },
+    {
+      "id": "SE-000015",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that both complete the meaning.\n\nthe biologist was ebullient in meetings; despite in print the tone became unexpectedly sharp.\n\nHer remarks were strikingly ____.",
+      "choices": [
+        "terse",
+        "laconic",
+        "verbose",
+        "diffuse",
+        "expansive",
+        "prolix"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "hard",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QC-000102",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -3. Compare the two quantities.\n\nQuantity A: 5(x + 2)\nQuantity B: 4(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "TC1-000057",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the historian was praised for a writing style that was duplicitous; yet, early drafts were anything but _____.",
+      "choices": ["salient", "honest", "obtuse", "candid", "duplicitous"],
+      "correct_answer": ["duplicitous"],
+      "explanation": "Because the style is described as duplicitous, the blank should match that description despite the pivot; duplicitous completes the contrast properly.",
+      "difficulty": "hard",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "SE-000012",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that both complete the meaning.\n\nthe critic was arduous in meetings; however in print the tone became unexpectedly sharp.\n\nHer remarks were strikingly ____.",
+      "choices": [
+        "laconic",
+        "diffuse",
+        "verbose",
+        "expansive",
+        "terse",
+        "prolix"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "hard",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "RC-000079",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"Recent excavations suggest that coastal communities exchanged not only goods but also navigational knowledge, enabling longer voyages than previously assumed.\"\n\nWhich inference is best supported by the passage?",
+      "choices": [
+        "People care only about monetary payoffs.",
+        "Social context can influence economic decisions.",
+        "Unfair offers are always rejected.",
+        "Spite is the dominant motive in all choices.",
+        "Experiments cannot reveal real behavior."
+      ],
+      "correct_answer": ["Social context can influence economic decisions."],
+      "explanation": "Accepting an unfair offer to avoid appearing spiteful shows social signaling influences choices.",
+      "difficulty": "easy",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QMCS-000135",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 49 miles per hour for 4 hours. How many miles does it travel?",
+      "choices": [196, 294, 245, 98, 147],
+      "correct_answer": [196],
+      "explanation": "Distance = rate × time = 49 × 4 = 196.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCM-000164",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 74.",
+      "choices": [1, 5, 9, 10, 3, 4],
+      "correct_answer": [1],
+      "explanation": "A factor of 74 divides it with no remainder. Check each choice by division.",
+      "difficulty": "medium",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QMCS-000152",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 34 miles per hour for 6 hours. How many miles does it travel?",
+      "choices": [272, 204, 136, 170, 238],
+      "correct_answer": [204],
+      "explanation": "Distance = rate × time = 34 × 6 = 204.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "RC-000073",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"While solar and wind technologies have fallen in cost, grid operators still face challenges balancing supply and demand. Short-term storage helps, but market rules lag technology.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "hard",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "TC1-000029",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the historian was praised for a writing style that was chastise; however, early drafts were anything but _____.",
+      "choices": ["obtuse", "praise", "commend", "salient", "laud"],
+      "correct_answer": ["chastise"],
+      "explanation": "Because the style is described as chastise, the blank should match that description despite the pivot; chastise completes the contrast properly.",
+      "difficulty": "hard",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QC-000111",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 13(x + 2)\nQuantity B: 15(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000089",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 15(x + 2)\nQuantity B: 2(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "TC1-000030",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the historian was praised for a writing style that was chastise; thus, early drafts were anything but _____.",
+      "choices": ["laud", "praise", "commend", "obtuse", "salient"],
+      "correct_answer": ["chastise"],
+      "explanation": "Because the style is described as chastise, the blank should match that description despite the pivot; chastise completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCS-000132",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 32 miles per hour for 6 hours. How many miles does it travel?",
+      "choices": [224, 256, 192, 160, 128],
+      "correct_answer": [192],
+      "explanation": "Distance = rate × time = 32 × 6 = 192.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QNE-000185",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "40% of 49 is ___.",
+      "choices": [],
+      "correct_answer": [19.6],
+      "explanation": "40% of 49 = (40/100)×49 = 19.6.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "QMCM-000167",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 80.",
+      "choices": [11, 5, 3, 12, 6, 10],
+      "correct_answer": [5, 10],
+      "explanation": "A factor of 80 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QC-000107",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 1. Compare the two quantities.\n\nQuantity A: 5(x + 2)\nQuantity B: 6(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QMCM-000166",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 59.",
+      "choices": [1, 5, 2, 10, 8, 4],
+      "correct_answer": [1],
+      "explanation": "A factor of 59 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QMCS-000156",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 36 miles per hour for 5 hours. How many miles does it travel?",
+      "choices": [252, 144, 180, 108, 216],
+      "correct_answer": [180],
+      "explanation": "Distance = rate × time = 36 × 5 = 180.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCS-000125",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 25 miles per hour for 4 hours. How many miles does it travel?",
+      "choices": [150, 75, 100, 50, 125],
+      "correct_answer": [100],
+      "explanation": "Distance = rate × time = 25 × 4 = 100.",
+      "difficulty": "easy",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QC-000109",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -1. Compare the two quantities.\n\nQuantity A: 4(x + 2)\nQuantity B: 6(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000114",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -4. Compare the two quantities.\n\nQuantity A: 3(x + 2)\nQuantity B: 11(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "RC-000070",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"In experiments, participants often accept unfair offers if rejecting them would be seen as spiteful. This indicates that social signaling shapes choices, not just payoffs.\"\n\nWhat is the primary purpose of the passage?",
+      "choices": [
+        "to argue that policy is ahead of technology",
+        "to explain a challenge that persists despite progress",
+        "to show that costs have increased",
+        "to compare two unrelated fields",
+        "to refute the need for regulation"
+      ],
+      "correct_answer": [
+        "to explain a challenge that persists despite progress"
+      ],
+      "explanation": "The passage notes progress (falling costs) but emphasizes remaining challenges (balancing supply/demand, market rules).",
+      "difficulty": "medium",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "SE-000021",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe manager was laconic in meetings; despite in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "verbose",
+        "laconic",
+        "diffuse",
+        "terse",
+        "expansive",
+        "prolix"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "hard",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "SE-000013",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe professor was spartan in meetings; despite in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "spartan",
+        "florid",
+        "austere",
+        "lavish",
+        "sumptuous",
+        "ornate"
+      ],
+      "correct_answer": ["spartan", "austere"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['spartan', 'austere'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QMCS-000159",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 60 miles per hour for 4 hours. How many miles does it travel?",
+      "choices": [300, 120, 360, 180, 240],
+      "correct_answer": [240],
+      "explanation": "Distance = rate × time = 60 × 4 = 240.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCM-000180",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 72.",
+      "choices": [3, 8, 7, 11, 9, 10],
+      "correct_answer": [3, 8, 9],
+      "explanation": "A factor of 72 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "TC1-000040",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the novelist was praised for a writing style that was verbose; although, early drafts were anything but _____.",
+      "choices": ["rarefied", "succinct", "jejune", "terse", "verbose"],
+      "correct_answer": ["verbose"],
+      "explanation": "Because the style is described as verbose, the blank should match that description despite the pivot; verbose completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "SE-000014",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe critic was prolix in meetings; although in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": ["brief", "terse", "prolix", "laconic", "pithy", "verbose"],
+      "correct_answer": ["prolix", "verbose"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['prolix', 'verbose'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "hard",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "SE-000022",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe biologist was prolix in meetings; although in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": ["laconic", "terse", "prolix", "brief", "pithy", "verbose"],
+      "correct_answer": ["prolix", "verbose"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['prolix', 'verbose'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QMCS-000153",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 28 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [112, 0, 28, 84, 56],
+      "correct_answer": [56],
+      "explanation": "Distance = rate × time = 28 × 2 = 56.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QMCS-000146",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 57 miles per hour for 3 hours. How many miles does it travel?",
+      "choices": [171, 57, 228, 285, 114],
+      "correct_answer": [171],
+      "explanation": "Distance = rate × time = 57 × 3 = 171.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "QC-000084",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 15(x + 2)\nQuantity B: 5(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "RC-000080",
+      "section": "Verbal",
+      "type": "Reading Comprehension",
+      "question": "Passage:\n\"In experiments, participants often accept unfair offers if rejecting them would be seen as spiteful. This indicates that social signaling shapes choices, not just payoffs.\"\n\nWhich inference is best supported by the passage?",
+      "choices": [
+        "People care only about monetary payoffs.",
+        "Social context can influence economic decisions.",
+        "Unfair offers are always rejected.",
+        "Spite is the dominant motive in all choices.",
+        "Experiments cannot reveal real behavior."
+      ],
+      "correct_answer": ["Social context can influence economic decisions."],
+      "explanation": "Accepting an unfair offer to avoid appearing spiteful shows social signaling influences choices.",
+      "difficulty": "medium",
+      "tags": ["verbal", "reading"]
+    },
+    {
+      "id": "QC-000095",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 8. Compare the two quantities.\n\nQuantity A: 5(x + 2)\nQuantity B: 3(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["A"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "TC1-000041",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the curator was praised for a writing style that was belligerent; thus, early drafts were anything but _____.",
+      "choices": ["obtuse", "belligerent", "jejune", "peaceful", "affable"],
+      "correct_answer": ["belligerent"],
+      "explanation": "Because the style is described as belligerent, the blank should match that description despite the pivot; belligerent completes the contrast properly.",
+      "difficulty": "hard",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QC-000088",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 10. Compare the two quantities.\n\nQuantity A: 4(x + 2)\nQuantity B: 12(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000117",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = -4. Compare the two quantities.\n\nQuantity A: 15(x + 2)\nQuantity B: 6(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000108",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 2. Compare the two quantities.\n\nQuantity A: 3(x + 2)\nQuantity B: 10(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000097",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 9. Compare the two quantities.\n\nQuantity A: 8(x + 2)\nQuantity B: 9(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "medium",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "TC1-000056",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the analyst was praised for a writing style that was effervescent; even though, early drafts were anything but _____.",
+      "choices": ["obtuse", "rarefied", "lethargic", "flat", "effervescent"],
+      "correct_answer": ["effervescent"],
+      "explanation": "Because the style is described as effervescent, the blank should match that description despite the pivot; effervescent completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "QMCS-000136",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 46 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [92, 46, 0, 184, 138],
+      "correct_answer": [92],
+      "explanation": "Distance = rate × time = 46 × 2 = 92.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "SE-000024",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe journalist was mendacious in meetings; however in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "sincere",
+        "frank",
+        "artless",
+        "mendacious",
+        "candid",
+        "duplicitous"
+      ],
+      "correct_answer": ["mendacious", "duplicitous"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['mendacious', 'duplicitous'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "medium",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "SE-000008",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe biologist was truculent in meetings; however in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "truculent",
+        "genial",
+        "belligerent",
+        "amiable",
+        "pacific",
+        "conciliatory"
+      ],
+      "correct_answer": ["truculent", "belligerent"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['truculent', 'belligerent'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QMCM-000163",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 67.",
+      "choices": [1, 8, 3, 9, 6, 5],
+      "correct_answer": [1],
+      "explanation": "A factor of 67 divides it with no remainder. Check each choice by division.",
+      "difficulty": "easy",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QNE-000190",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "20% of 76 is ___.",
+      "choices": [],
+      "correct_answer": [15.2],
+      "explanation": "20% of 76 = (20/100)×76 = 15.2.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "QNE-000196",
+      "section": "Quantitative",
+      "type": "Numeric Entry",
+      "question": "25% of 99 is ___.",
+      "choices": [],
+      "correct_answer": [24.75],
+      "explanation": "25% of 99 = (25/100)×99 = 24.75.",
+      "difficulty": "easy",
+      "tags": ["quant", "percent"]
+    },
+    {
+      "id": "SE-000018",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that both complete the meaning.\n\nthe committee was castigate in meetings; despite in print the tone became unexpectedly sharp.\n\nHer remarks were strikingly ____.",
+      "choices": [
+        "diffuse",
+        "verbose",
+        "expansive",
+        "terse",
+        "laconic",
+        "prolix"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "easy",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QC-000103",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 9. Compare the two quantities.\n\nQuantity A: 2(x + 2)\nQuantity B: 8(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["B"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QMCM-000169",
+      "section": "Quantitative",
+      "type": "Multiple Choice — One or More Answers",
+      "question": "Select all numbers below that are factors of 64.",
+      "choices": [6, 4, 3, 2, 10, 9],
+      "correct_answer": [4, 2],
+      "explanation": "A factor of 64 divides it with no remainder. Check each choice by division.",
+      "difficulty": "medium",
+      "tags": ["quant", "factors"]
+    },
+    {
+      "id": "QMCS-000145",
+      "section": "Quantitative",
+      "type": "Multiple Choice — Single Answer",
+      "question": "A car travels at a constant speed of 31 miles per hour for 2 hours. How many miles does it travel?",
+      "choices": [31, 62, 93, 124, 0],
+      "correct_answer": [62],
+      "explanation": "Distance = rate × time = 31 × 2 = 62.",
+      "difficulty": "medium",
+      "tags": ["quant", "rate", "distance"]
+    },
+    {
+      "id": "TC1-000037",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the novelist was praised for a writing style that was duplicitous; yet, early drafts were anything but _____.",
+      "choices": ["rarefied", "obtuse", "honest", "duplicitous", "candid"],
+      "correct_answer": ["duplicitous"],
+      "explanation": "Because the style is described as duplicitous, the blank should match that description despite the pivot; duplicitous completes the contrast properly.",
+      "difficulty": "easy",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "TC1-000047",
+      "section": "Verbal",
+      "type": "Text Completion (1 blank)",
+      "question": "the novelist was praised for a writing style that was effervescent; yet, early drafts were anything but _____.",
+      "choices": ["flat", "effervescent", "salient", "lethargic", "rarefied"],
+      "correct_answer": ["effervescent"],
+      "explanation": "Because the style is described as effervescent, the blank should match that description despite the pivot; effervescent completes the contrast properly.",
+      "difficulty": "medium",
+      "tags": ["verbal", "text_completion"]
+    },
+    {
+      "id": "SE-000002",
+      "section": "Verbal",
+      "type": "Sentence Equivalence",
+      "question": "Select the TWO answer choices that, when used to complete the sentence, both fit the meaning of the sentence and produce sentences that are closest in meaning.\n\nthe critic was laconic in meetings; although in print the tone became unexpectedly sharp.\n\nThe professor's comments in print were unexpectedly ____.",
+      "choices": [
+        "terse",
+        "diffuse",
+        "prolix",
+        "laconic",
+        "verbose",
+        "expansive"
+      ],
+      "correct_answer": ["laconic", "terse"],
+      "explanation": "The sentence contrasts behavior in meetings with a sharper tone in print; the correct pair ['laconic', 'terse'] are close synonyms, matching the intended meaning. Other options do not share the same meaning.",
+      "difficulty": "hard",
+      "tags": ["verbal", "sentence_equivalence"]
+    },
+    {
+      "id": "QC-000090",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 5. Compare the two quantities.\n\nQuantity A: 9(x + 2)\nQuantity B: 9(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["C"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "easy",
+      "tags": ["quant", "comparison", "algebra"]
+    },
+    {
+      "id": "QC-000087",
+      "section": "Quantitative",
+      "type": "Quantitative Comparison",
+      "question": "Let x = 4. Compare the two quantities.\n\nQuantity A: 2(x + 2)\nQuantity B: 2(x + 2)",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": ["C"],
+      "explanation": "A: Quantity A is greater; B: Quantity B is greater; C: The two quantities are equal; D: The relationship cannot be determined.\n\nBoth quantities are multiples of (x+2). If (x+2) is positive, the larger coefficient yields the larger product; if negative, the inequality reverses; if zero, both are equal.",
+      "difficulty": "hard",
+      "tags": ["quant", "comparison", "algebra"]
+    }
+  ]
+}

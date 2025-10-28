@@ -1,15 +1,19 @@
 "use client";
 
 import { useState } from "react";
-import { questions } from "../data/questions";
+import { questions } from "@/data/questions";
 
 export default function HomeClient() {
-  const [selectedQuestion, setSelectedQuestion] = useState<string | null>(null);
+  const [currentSet, setCurrentSet] = useState<typeof questions>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
 
-  const handleSelectQuestion = (id: string) => {
-    setSelectedQuestion(id);
+  const startCategory = (cat: string) => {
+    const filtered = questions.filter((q) => q.category === cat);
+    const shuffled = [...filtered].sort(() => Math.random() - 0.5).slice(0, 10);
+    setCurrentSet(shuffled);
+    setCurrentIndex(0);
     setSelectedOption(null);
     setIsAnswered(false);
   };
@@ -19,7 +23,17 @@ export default function HomeClient() {
     setIsAnswered(true);
   };
 
-  const question = questions.find((q) => q.id === selectedQuestion);
+  const handleNext = () => {
+    if (currentIndex < currentSet.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+      setSelectedOption(null);
+      setIsAnswered(false);
+    } else {
+      setCurrentSet([]);
+    }
+  };
+
+  const question = currentSet[currentIndex];
 
   return (
     <main className="container" style={{ textAlign: "center" }}>
@@ -32,7 +46,7 @@ export default function HomeClient() {
         Welcome to GRE Study
       </h1>
 
-      {!selectedQuestion ? (
+      {currentSet.length === 0 ? (
         <section>
           <p style={{ color: "var(--color-text-secondary)" }}>
             Select a question category to begin:
@@ -50,10 +64,7 @@ export default function HomeClient() {
               <button
                 type="button"
                 key={cat}
-                onClick={() => {
-                  const q = questions.find((q) => q.category === cat);
-                  if (q) handleSelectQuestion(q.id);
-                }}
+                onClick={() => startCategory(cat)}
                 className="card"
                 style={{
                   minWidth: "150px",
@@ -117,24 +128,51 @@ export default function HomeClient() {
             })}
           </div>
           {isAnswered && (
-            <p
-              style={{
-                marginTop: "var(--space-md)",
-                fontWeight: 500,
-                color:
-                  selectedOption === question?.answer
-                    ? "var(--color-accent)"
-                    : "var(--color-error)",
-              }}
-            >
-              {selectedOption === question?.answer
-                ? "✅ Correct!"
-                : "❌ Incorrect."}
-            </p>
+            <>
+              <p
+                style={{
+                  marginTop: "var(--space-md)",
+                  fontWeight: 500,
+                  color:
+                    selectedOption === question?.answer
+                      ? "var(--color-accent)"
+                      : "var(--color-error)",
+                }}
+              >
+                {selectedOption === question?.answer
+                  ? "✅ Correct!"
+                  : "❌ Incorrect."}
+              </p>
+              <button
+                type="button"
+                onClick={handleNext}
+                style={{
+                  marginTop: "var(--space-md)",
+                  backgroundColor: "var(--color-primary)",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: "var(--radius-md)",
+                  padding: "var(--space-sm) var(--space-lg)",
+                  cursor: "pointer",
+                }}
+              >
+                {currentIndex < currentSet.length - 1
+                  ? "Next Question"
+                  : "Finish"}
+              </button>
+            </>
           )}
+          <p
+            style={{
+              marginTop: "var(--space-md)",
+              color: "var(--color-text-secondary)",
+            }}
+          >
+            Question {currentIndex + 1} of {currentSet.length}
+          </p>
           <button
             type="button"
-            onClick={() => setSelectedQuestion(null)}
+            onClick={() => setCurrentSet([])}
             style={{
               marginTop: "var(--space-lg)",
               backgroundColor: "var(--color-primary)",
