@@ -47,7 +47,7 @@ const normalizeBank = (bank: { items?: BankItem[] }): Question[] => {
         answer: answerIndex >= 0 ? answerIndex : 0,
       } as Question;
     })
-    .filter(Boolean);
+    .filter((item): item is Question => item !== null);
 };
 
 export const questions: Question[] = [
