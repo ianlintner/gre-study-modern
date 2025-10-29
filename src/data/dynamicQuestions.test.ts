@@ -85,4 +85,20 @@ describe("generateDynamicQuantQuestions", () => {
       expect(uniqueOptions.size).toBe(4);
     }
   });
+
+  it("should handle edge cases with small correct answers", () => {
+    // Test multiple times to ensure edge cases are handled
+    const questions = generateDynamicQuantQuestions(50);
+    for (const q of questions) {
+      expect(q.options).toHaveLength(4);
+      expect(q.options[q.answer]).toBeDefined();
+
+      // Verify all options are valid numbers
+      for (const opt of q.options) {
+        const num = Number.parseInt(opt, 10);
+        expect(num).toBeGreaterThan(0);
+        expect(Number.isNaN(num)).toBe(false);
+      }
+    }
+  });
 });

@@ -37,16 +37,29 @@ export function generateDynamicQuantQuestions(count: number): Question[] {
       }
     }
 
-    // Create options array with correct answer at a random position
+    // Ensure we have exactly 3 wrong answers (safety fallback)
+    while (wrongAnswers.size < 3) {
+      const fallback = correctAnswer + wrongAnswers.size + 1;
+      if (fallback > 0 && fallback < 100 && fallback !== correctAnswer) {
+        wrongAnswers.add(fallback);
+      } else {
+        wrongAnswers.add(correctAnswer + 10 + wrongAnswers.size);
+      }
+    }
+
+    // Create options array with correct answer - Fisher-Yates shuffle
     const allAnswers = [correctAnswer, ...Array.from(wrongAnswers)];
-    const shuffledAnswers = allAnswers.sort(() => Math.random() - 0.5);
-    const correctIndex = shuffledAnswers.indexOf(correctAnswer);
+    for (let i = allAnswers.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [allAnswers[i], allAnswers[j]] = [allAnswers[j], allAnswers[i]];
+    }
+    const correctIndex = allAnswers.indexOf(correctAnswer);
 
     questions.push({
       id: `DYN-EQ-${String(i).padStart(6, "0")}`,
       category: "quantitative",
       question,
-      options: shuffledAnswers.map(String),
+      options: allAnswers.map(String),
       answer: correctIndex,
     });
   }
