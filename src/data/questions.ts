@@ -1,3 +1,4 @@
+import { generateDynamicQuantQuestions } from "./dynamicQuestions";
 import qbank1 from "./gre_qbank_1.json";
 import qbank2 from "./gre_qbank_2.json";
 import qbank3 from "./gre_qbank_3.json";
@@ -56,4 +57,5 @@ export const questions: Question[] = [
   ...normalizeBank(qbank3),
   ...normalizeBank(qbank4),
   ...normalizeBank(qbank5),
+  ...generateDynamicQuantQuestions(10), // Add 10 dynamic quantitative questions
 ];
