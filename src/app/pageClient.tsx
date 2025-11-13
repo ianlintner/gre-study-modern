@@ -80,6 +80,65 @@ export default function HomeClient() {
               </button>
             ))}
           </div>
+          <div
+            style={{
+              marginTop: "var(--space-xl)",
+              display: "flex",
+              justifyContent: "center",
+              gap: "var(--space-md)",
+            }}
+          >
+            <a
+              href="/study-plans"
+              className="card"
+              style={{
+                minWidth: "200px",
+                backgroundColor: "var(--color-primary)",
+                color: "#fff",
+                border: "none",
+                cursor: "pointer",
+                textDecoration: "none",
+                display: "block",
+                transition: "transform var(--transition-fast)",
+              }}
+            >
+              <h3 style={{ margin: 0 }}>📚 Study Plans</h3>
+              <p
+                style={{
+                  margin: "var(--space-xs) 0 0 0",
+                  fontSize: "var(--font-size-sm)",
+                  opacity: 0.9,
+                }}
+              >
+                Structured learning paths
+              </p>
+            </a>
+            <a
+              href="/question-bank"
+              className="card"
+              style={{
+                minWidth: "200px",
+                backgroundColor: "var(--color-accent)",
+                color: "#fff",
+                border: "none",
+                cursor: "pointer",
+                textDecoration: "none",
+                display: "block",
+                transition: "transform var(--transition-fast)",
+              }}
+            >
+              <h3 style={{ margin: 0 }}>🏦 Question Bank</h3>
+              <p
+                style={{
+                  margin: "var(--space-xs) 0 0 0",
+                  fontSize: "var(--font-size-sm)",
+                  opacity: 0.9,
+                }}
+              >
+                Browse all questions
+              </p>
+            </a>
+          </div>
         </section>
       ) : (
         <section className="card" style={{ marginTop: "var(--space-xl)" }}>
