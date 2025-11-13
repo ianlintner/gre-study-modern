@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Architecture: architecture.md
+  - Development Guide: development.md
   - Contributing: contributing.md
   - FAQ: faq.md
 plugins:
@@ -16,3 +17,5 @@ markdown_extensions:
   - codehilite
   - toc:
       permalink: true
+  - tables
+  - fenced_code
