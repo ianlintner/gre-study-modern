@@ -11,6 +11,8 @@ export type Question = {
   question: string;
   options: string[];
   answer: number; // index of correct answer
+  tags?: string[]; // Tags for linking to study plan topics
+  studyPlanTopics?: string[]; // IDs of study plan topics this question relates to
 };
 
 export type BankItem = {
@@ -19,6 +21,7 @@ export type BankItem = {
   question: string;
   choices?: (string | number)[];
   correct_answer?: (string | number)[];
+  tags?: string[]; // Tags from source data
 };
 
 const normalizeBank = (bank: { items?: BankItem[] }): Question[] => {
@@ -46,6 +49,7 @@ const normalizeBank = (bank: { items?: BankItem[] }): Question[] => {
         question: item.question,
         options,
         answer: answerIndex >= 0 ? answerIndex : 0,
+        tags: item.tags || [], // Preserve tags from source data
       } as Question;
     })
     .filter((item): item is Question => item !== null);
@@ -59,3 +63,66 @@ export const questions: Question[] = [
   ...normalizeBank(qbank5),
   ...generateDynamicQuantQuestions(10), // Add 10 dynamic quantitative questions
 ];
+
+/**
+ * Get questions related to a specific study plan topic
+ * Links questions to topics based on tags and category
+ */
+export function getQuestionsForTopic(
+  topicId: string,
+  category: "verbal" | "quantitative" | "analytical",
+): Question[] {
+  // Map topic IDs to relevant tags
+  const topicTagMap: Record<string, string[]> = {
+    // Quantitative topics
+    "order-of-operations": ["algebra", "arithmetic"],
+    "linear-equations": ["algebra", "equations"],
+    "exponents-roots": ["algebra", "exponents"],
+    "fractions-decimals": ["arithmetic", "fractions"],
+    percentages: ["arithmetic", "percent"],
+    "ratios-proportions": ["arithmetic", "ratio"],
+    "algebra-fundamentals": ["algebra"],
+    inequalities: ["algebra", "inequality"],
+    "geometry-basics": ["geometry"],
+    "data-interpretation": ["statistics", "data"],
+    // Verbal topics
+    "vocabulary-building": ["verbal", "vocabulary"],
+    "text-completion": ["verbal", "text_completion"],
+    "sentence-equivalence": ["verbal", "sentence_equivalence"],
+    "reading-comprehension": ["verbal", "reading"],
+    "critical-reasoning": ["verbal", "reasoning"],
+    // Analytical topics
+    "analyze-issue": ["analytical", "issue"],
+    "analyze-argument": ["analytical", "argument"],
+    "writing-mechanics": ["analytical", "writing"],
+    "time-management": ["analytical"],
+    "high-scoring-strategies": ["analytical"],
+  };
+
+  const relevantTags = topicTagMap[topicId] || [];
+
+  return questions.filter((q) => {
+    // Must match category
+    if (q.category !== category) return false;
+
+    // Check if question has any relevant tags
+    if (q.tags && q.tags.length > 0) {
+      return q.tags.some((tag) =>
+        relevantTags.some((topicTag) =>
+          tag.toLowerCase().includes(topicTag.toLowerCase()),
+        ),
+      );
+    }
+
+    return false;
+  });
+}
+
+/**
+ * Get all questions for a study plan category
+ */
+export function getQuestionsForCategory(
+  category: "verbal" | "quantitative" | "analytical",
+): Question[] {
+  return questions.filter((q) => q.category === category);
+}

@@ -3,6 +3,7 @@ export type StudyPlanTopic = {
   title: string;
   description: string;
   subtopics?: string[];
+  questionIds?: string[]; // Optional: specific question IDs linked to this topic
 };
 
 export type StudyPlan = {

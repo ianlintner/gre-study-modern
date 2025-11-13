@@ -8,6 +8,7 @@ nav:
   - Getting Started: getting-started.md
   - Architecture: architecture.md
   - Development Guide: development.md
+  - Question-Topic Linking: question-topic-linking.md
   - Contributing: contributing.md
   - FAQ: faq.md
 plugins:
