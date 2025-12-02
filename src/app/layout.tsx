@@ -4,18 +4,17 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import "./globals.css";
 
+type Theme = "light" | "dark" | "vaporwave";
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
-    const storedTheme = localStorage.getItem("theme") as
-      | "light"
-      | "dark"
-      | null;
+    const storedTheme = localStorage.getItem("theme") as Theme | null;
     const systemPrefersDark = window.matchMedia(
       "(prefers-color-scheme: dark)",
     ).matches;
@@ -29,16 +28,37 @@ export default function RootLayout({
     }
   }, []);
 
-  const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
+  const cycleTheme = () => {
+    const themes: Theme[] = ["light", "dark", "vaporwave"];
+    const currentIndex = themes.indexOf(theme);
+    const newTheme = themes[(currentIndex + 1) % themes.length];
     setTheme(newTheme);
     document.documentElement.setAttribute("data-theme", newTheme);
     localStorage.setItem("theme", newTheme);
   };
 
+  const getThemeIcon = () => {
+    switch (theme) {
+      case "light":
+        return "🌙 Dark Mode";
+      case "dark":
+        return "🌴 Vaporwave";
+      case "vaporwave":
+        return "☀️ Light Mode";
+    }
+  };
+
   return (
     <html lang="en">
       <body className="antialiased">
+        {/* Vaporwave background elements */}
+        {theme === "vaporwave" && (
+          <>
+            <div className="vaporwave-stars" />
+            <div className="vaporwave-sun" />
+            <div className="vaporwave-grid" />
+          </>
+        )}
         <header
           style={{
             display: "flex",
@@ -77,8 +97,8 @@ export default function RootLayout({
               </Link>
             </nav>
           </div>
-          <button type="button" onClick={toggleTheme} aria-label="Toggle theme">
-            {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
+          <button type="button" onClick={cycleTheme} aria-label="Toggle theme">
+            {getThemeIcon()}
           </button>
         </header>
         <main className="container">{children}</main>

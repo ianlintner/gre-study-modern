@@ -17,23 +17,42 @@ export default function QuestionBankPage() {
   });
 
   return (
-    <main className="min-h-screen bg-gray-50 py-10 px-4">
-      <h1 className="text-3xl font-bold text-gray-800 text-center mb-8">
+    <main
+      className="min-h-screen py-10 px-4"
+      style={{ backgroundColor: "transparent" }}
+    >
+      <h1
+        className="text-3xl font-bold text-center mb-8"
+        style={{ color: "var(--color-text)" }}
+      >
         Question Bank
       </h1>
 
-      <div className="sticky top-0 bg-gray-50 z-10 flex flex-wrap justify-center gap-4 mb-8 p-4 shadow-sm rounded-md">
+      <div
+        className="sticky top-16 z-10 flex flex-wrap justify-center gap-4 mb-8 p-4 shadow-sm rounded-md"
+        style={{ backgroundColor: "var(--color-surface)" }}
+      >
         <input
           type="text"
           placeholder="Search questions..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="px-4 py-2 border border-gray-300 rounded-md w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="px-4 py-2 rounded-md w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          style={{
+            backgroundColor: "var(--color-surface)",
+            color: "var(--color-text)",
+            border: "1px solid var(--color-border)",
+          }}
         />
         <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          style={{
+            backgroundColor: "var(--color-surface)",
+            color: "var(--color-text)",
+            border: "1px solid var(--color-border)",
+          }}
         >
           <option value="all">All Categories</option>
           <option value="verbal">Verbal</option>
@@ -46,7 +65,7 @@ export default function QuestionBankPage() {
         {filtered.map((q) => (
           <div
             key={q.id}
-            className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
+            className="card rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
           >
             <button
               type="button"
@@ -56,27 +75,36 @@ export default function QuestionBankPage() {
                   setExpanded(expanded === q.id ? null : q.id);
                 }
               }}
-              className="w-full text-left px-6 py-4 text-lg font-semibold text-blue-700 hover:text-blue-800 focus:outline-none"
+              className="w-full text-left px-6 py-4 text-lg font-semibold focus:outline-none"
+              style={{ color: "var(--color-primary)" }}
             >
               {q.id}: {q.question}
             </button>
             {expanded === q.id && (
               <div className="px-6 pb-4 animate-fadeIn">
-                <ul className="list-disc pl-6 space-y-1 text-gray-700">
+                <ul
+                  className="list-disc pl-6 space-y-1"
+                  style={{ color: "var(--color-text-secondary)" }}
+                >
                   {q.options.map((opt, i) => (
                     <li
                       key={`${q.id}-${opt}`}
-                      className={
-                        i === q.answer
-                          ? "text-green-600 font-medium"
-                          : "text-gray-700"
-                      }
+                      style={{
+                        color:
+                          i === q.answer
+                            ? "var(--color-accent)"
+                            : "var(--color-text-secondary)",
+                        fontWeight: i === q.answer ? 500 : 400,
+                      }}
                     >
                       {opt}
                     </li>
                   ))}
                 </ul>
-                <p className="mt-2 text-green-600 font-semibold">
+                <p
+                  className="mt-2 font-semibold"
+                  style={{ color: "var(--color-accent)" }}
+                >
                   Correct Answer: {q.options[q.answer]}
                 </p>
               </div>
@@ -84,7 +112,12 @@ export default function QuestionBankPage() {
           </div>
         ))}
         {filtered.length === 0 && (
-          <p className="text-center text-gray-500">No questions found.</p>
+          <p
+            className="text-center"
+            style={{ color: "var(--color-text-secondary)" }}
+          >
+            No questions found.
+          </p>
         )}
       </div>
     </main>
