@@ -28,12 +28,21 @@ export default function StudyPlansPage() {
   };
 
   return (
-    <main className="min-h-screen bg-gray-50 py-10 px-4">
+    <main
+      className="min-h-screen py-10 px-4"
+      style={{ backgroundColor: "transparent" }}
+    >
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-800 text-center mb-4">
+        <h1
+          className="text-4xl font-bold text-center mb-4"
+          style={{ color: "var(--color-text)" }}
+        >
           Study Plans
         </h1>
-        <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p
+          className="text-center mb-8 max-w-2xl mx-auto"
+          style={{ color: "var(--color-text-secondary)" }}
+        >
           Structured learning paths with comprehensive topic outlines to help
           you master the GRE. Each plan includes detailed topics and subtopics
           to guide your preparation.
@@ -47,11 +56,16 @@ export default function StudyPlansPage() {
                 type="button"
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
-                  selectedCategory === cat
-                    ? "bg-blue-600 text-white shadow-md"
-                    : "bg-white text-gray-700 border border-gray-300 hover:border-blue-500 hover:text-blue-600"
-                }`}
+                className="px-6 py-2 rounded-lg font-medium transition-all duration-200"
+                style={{
+                  backgroundColor:
+                    selectedCategory === cat
+                      ? "var(--color-primary)"
+                      : "var(--color-surface)",
+                  color:
+                    selectedCategory === cat ? "#fff" : "var(--color-text)",
+                  border: `1px solid ${selectedCategory === cat ? "var(--color-primary)" : "var(--color-border)"}`,
+                }}
               >
                 {cat.charAt(0).toUpperCase() + cat.slice(1)}
               </button>
@@ -64,7 +78,7 @@ export default function StudyPlansPage() {
           {filteredPlans.map((plan) => (
             <div
               key={plan.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200"
+              className="card rounded-lg shadow-md overflow-hidden"
             >
               {/* Plan Header */}
               <button
@@ -72,35 +86,56 @@ export default function StudyPlansPage() {
                 onClick={() =>
                   setExpandedPlan(expandedPlan === plan.id ? null : plan.id)
                 }
-                className="w-full text-left px-6 py-5 hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
+                className="w-full text-left px-6 py-5 transition-colors duration-200 focus:outline-none"
+                style={{ backgroundColor: "var(--color-surface)" }}
               >
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
                       <span
-                        className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                          plan.category === "quantitative"
-                            ? "bg-blue-100 text-blue-700"
-                            : plan.category === "verbal"
-                              ? "bg-green-100 text-green-700"
-                              : "bg-purple-100 text-purple-700"
-                        }`}
+                        className="px-3 py-1 rounded-full text-xs font-semibold"
+                        style={{
+                          backgroundColor:
+                            plan.category === "quantitative"
+                              ? "rgba(59, 130, 246, 0.2)"
+                              : plan.category === "verbal"
+                                ? "rgba(16, 185, 129, 0.2)"
+                                : "rgba(139, 92, 246, 0.2)",
+                          color:
+                            plan.category === "quantitative"
+                              ? "var(--color-primary)"
+                              : plan.category === "verbal"
+                                ? "var(--color-accent)"
+                                : "#a78bfa",
+                        }}
                       >
                         {plan.category}
                       </span>
-                      <h2 className="text-2xl font-bold text-gray-800">
+                      <h2
+                        className="text-2xl font-bold"
+                        style={{ color: "var(--color-text)" }}
+                      >
                         {plan.title}
                       </h2>
                     </div>
-                    <p className="text-gray-600">{plan.description}</p>
-                    <p className="text-sm text-gray-500 mt-2">
+                    <p style={{ color: "var(--color-text-secondary)" }}>
+                      {plan.description}
+                    </p>
+                    <p
+                      className="text-sm mt-2"
+                      style={{
+                        color: "var(--color-text-secondary)",
+                        opacity: 0.8,
+                      }}
+                    >
                       {plan.topics.length} topics
                     </p>
                   </div>
                   <svg
-                    className={`w-6 h-6 text-gray-400 transition-transform duration-200 ${
+                    className={`w-6 h-6 transition-transform duration-200 ${
                       expandedPlan === plan.id ? "transform rotate-180" : ""
                     }`}
+                    style={{ color: "var(--color-text-secondary)" }}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -118,39 +153,58 @@ export default function StudyPlansPage() {
 
               {/* Plan Content */}
               {expandedPlan === plan.id && (
-                <div className="px-6 pb-6 border-t border-gray-200 bg-gray-50">
+                <div
+                  className="px-6 pb-6"
+                  style={{
+                    backgroundColor: "rgba(0,0,0,0.1)",
+                    borderTop: "1px solid var(--color-border)",
+                  }}
+                >
                   <div className="mt-4 space-y-3">
                     {plan.topics.map((topic) => (
                       <div
                         key={topic.id}
-                        className="bg-white rounded-lg border border-gray-200 overflow-hidden"
+                        className="card rounded-lg overflow-hidden"
                       >
                         {/* Topic Header */}
                         <button
                           type="button"
                           onClick={() => toggleTopic(topic.id)}
-                          className="w-full text-left px-5 py-4 hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
+                          className="w-full text-left px-5 py-4 transition-colors duration-200 focus:outline-none"
                         >
                           <div className="flex items-start justify-between">
                             <div className="flex-1">
-                              <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                              <h3
+                                className="text-lg font-semibold mb-1"
+                                style={{ color: "var(--color-text)" }}
+                              >
                                 {topic.title}
                               </h3>
-                              <p className="text-sm text-gray-600">
+                              <p
+                                className="text-sm"
+                                style={{ color: "var(--color-text-secondary)" }}
+                              >
                                 {topic.description}
                               </p>
                               {topic.subtopics && (
-                                <p className="text-xs text-gray-500 mt-2">
+                                <p
+                                  className="text-xs mt-2"
+                                  style={{
+                                    color: "var(--color-text-secondary)",
+                                    opacity: 0.8,
+                                  }}
+                                >
                                   {topic.subtopics.length} subtopics
                                 </p>
                               )}
                             </div>
                             <svg
-                              className={`w-5 h-5 text-gray-400 transition-transform duration-200 flex-shrink-0 ml-3 ${
+                              className={`w-5 h-5 transition-transform duration-200 flex-shrink-0 ml-3 ${
                                 expandedTopics.has(topic.id)
                                   ? "transform rotate-180"
                                   : ""
                               }`}
+                              style={{ color: "var(--color-text-secondary)" }}
                               fill="none"
                               stroke="currentColor"
                               viewBox="0 0 24 24"
@@ -168,7 +222,13 @@ export default function StudyPlansPage() {
 
                         {/* Topic Subtopics */}
                         {expandedTopics.has(topic.id) && topic.subtopics && (
-                          <div className="px-5 pb-4 border-t border-gray-100 bg-gray-50">
+                          <div
+                            className="px-5 pb-4"
+                            style={{
+                              backgroundColor: "rgba(0,0,0,0.1)",
+                              borderTop: "1px solid var(--color-border)",
+                            }}
+                          >
                             <ul className="mt-3 space-y-2">
                               {topic.subtopics.map((subtopic, index) => (
                                 <li
@@ -176,7 +236,8 @@ export default function StudyPlansPage() {
                                   className="flex items-start"
                                 >
                                   <svg
-                                    className="w-5 h-5 text-blue-500 mr-2 flex-shrink-0 mt-0.5"
+                                    className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5"
+                                    style={{ color: "var(--color-primary)" }}
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -189,7 +250,11 @@ export default function StudyPlansPage() {
                                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                                     />
                                   </svg>
-                                  <span className="text-gray-700">
+                                  <span
+                                    style={{
+                                      color: "var(--color-text-secondary)",
+                                    }}
+                                  >
                                     {subtopic}
                                   </span>
                                 </li>
@@ -207,7 +272,10 @@ export default function StudyPlansPage() {
 
           {filteredPlans.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-gray-500 text-lg">
+              <p
+                className="text-lg"
+                style={{ color: "var(--color-text-secondary)" }}
+              >
                 No study plans found for this category.
               </p>
             </div>
@@ -218,7 +286,11 @@ export default function StudyPlansPage() {
         <div className="mt-8 text-center">
           <a
             href="/"
-            className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
+            className="inline-block px-6 py-3 rounded-lg font-medium transition-colors duration-200"
+            style={{
+              backgroundColor: "var(--color-primary)",
+              color: "#fff",
+            }}
           >
             Back to Home
           </a>
